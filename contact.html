@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Demo Pizza Website, by Scott Sykora</title>
+    <link href="/stylesheet/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>Pizza University</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tools.html">Tools</a></li>
+          <li><a href="ingredients.html">Ingredients</a></li>
+          <li><a href="technique.html">Technique</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul> 
+      </nav>
+      <main>
+        <h2>My Contact Information</h2>
+        <form action="https://itsd.cvtc.edu/web1/contact.php" method="POST">
+          <p>All fields with an asterisk (*) are required.</p>
+
+          <label for="name">* Name:</label>
+          <input required type="text" id="name" name="name">
+
+          <label for="email">* Email:</label>
+          <input required type="email" id="email" name="email" placeholder="email@example.com">
+
+          <label for="phone_number">* Phone:</label>
+          <input required type="number" id="phone_number" name="Phone_number" placeholder="xxx-xxx-xxxx">
+
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" rows="10" cols="30">Type your message here.</textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+        <section>
+          <p>
+            Pizza University<br>
+            123 Fake Name Street<br>
+            Hometown, WI 54777
+          </p>
+          <p>
+            Send an email to us at:
+            <a href="mailto:info@pizzauniversity.com">info@pizzauniversity.com</a>
+          </p>
+        </section>
+      </main>
+      <footer>
+        <small>Copyright &copy; 2020 Scott Sykora</small>
+      </footer>
+    </div>
+  </body>
+</html>
