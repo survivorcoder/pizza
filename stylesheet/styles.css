@@ -52,7 +52,7 @@ form {
 
 header {
   background-color: #0a0a0a;
-  background-image: url(/images/pizza_header2.jpg);
+  background-image: url(../images/pizza_header2.jpg);
   background-repeat: no-repeat;
   color: #a63921;
   font-size: 150%; 
